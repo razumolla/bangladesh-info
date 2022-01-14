@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title {
+    color: green;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+/*------ left side ----- */
+.parent {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left-side{
+    width: 50%;
+    padding-top: 50px;
+}
+.details-btn{
+    text-decoration: none;
+    padding:15px 50px;
+    background-image: linear-gradient(45deg,green,red,green);
+    color: green;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+.details-btn:hover{
+    color: white;
+    cursor: pointer;
+    
+}
+
+/*------ right side -- */
+.right-side{
+    width: 50%;
+}
+.photo img{
+    width: 400px;
+    
+}
+
+/*==== All division === */
+.second-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.all-divisions{
+    display: flex;
+}
+.dividion{
+    width: 30%;
+    border: 1px solid gray ;
+    box-shadow: 4px 2px 12px gray;
+    border-radius: 5px;
+    padding-bottom: 30px;
+
+}
+
+.div-img img{
+    width: 100%;
+
+}
+.all-divisions{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+footer p{
+text-align: center;
+margin-top: 30px;
+margin-bottom: 50px;
+}
